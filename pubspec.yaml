@@ -1,0 +1,126 @@
+name: calculator
+description: Calculate using mathportal.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 2.1.0+21
+
+environment:
+  sdk: '>=2.18.0-95.0.dev <3.0.0'
+
+# flutter pub upgrade --major-versions
+# flutter pub outdated
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  google_fonts: ^4.0.3
+  auto_size_text: ^3.0.0
+  awesome_dialog: ^3.0.2
+  flutter_tex: ^4.0.3+4
+  shared_preferences: ^2.0.15
+  html: ^0.15.0
+  intl: ^0.18.0
+  provider: ^6.0.3
+  flutter_inappwebview: ^5.4.3+7
+  google_mobile_ads: ^2.1.0
+  share_plus: ^6.3.0
+  rate_my_app: ^1.1.3
+  store_redirect: ^2.0.1
+  connectivity_plus: ^3.0.2
+  flutter_native_splash: ^2.2.17
+  audioplayers: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  background_image: assets/images/splash-backgroung.png
+  image: assets/images/splash-image.png
+  android_gravity: fill
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/help.png
+    - assets/icons/settings-icon.png
+    - assets/click4.wav
+    # light theme
+    - assets/images/light/background.png
+    - assets/images/light/main_logo.png
+    - assets/images/light/back_shadow.png
+    - assets/images/light/main-page/calculus.png
+    - assets/images/light/main-page/complex-numbers.png
+    - assets/images/light/main-page/coordinate-geometry.png
+    - assets/images/light/main-page/geometry.png
+    - assets/images/light/main-page/matrices.png
+    - assets/images/light/main-page/numbers.png
+    - assets/images/light/main-page/polynomials.png
+    - assets/images/light/main-page/quadratics.png
+    - assets/images/light/main-page/radical-expressions.png
+    - assets/images/light/main-page/rational-expressions.png
+    - assets/images/light/main-page/sequences.png
+    - assets/images/light/main-page/solving-equations.png
+    - assets/images/light/main-page/statistics.png
+    - assets/images/light/main-page/system-of-equations.png
+    # dark theme
+    - assets/images/dark/background.png
+    - assets/images/dark/main_logo.png
+    - assets/images/dark/back_shadow.png
+    - assets/images/dark/main-page/calculus.png
+    - assets/images/dark/main-page/complex-numbers.png
+    - assets/images/dark/main-page/coordinate-geometry.png
+    - assets/images/dark/main-page/geometry.png
+    - assets/images/dark/main-page/matrices.png
+    - assets/images/dark/main-page/numbers.png
+    - assets/images/dark/main-page/polynomials.png
+    - assets/images/dark/main-page/quadratics.png
+    - assets/images/dark/main-page/radical-expressions.png
+    - assets/images/dark/main-page/rational-expressions.png
+    - assets/images/dark/main-page/sequences.png
+    - assets/images/dark/main-page/solving-equations.png
+    - assets/images/dark/main-page/statistics.png
+    - assets/images/dark/main-page/system-of-equations.png
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Consolas
+      fonts:
+        - asset: assets/fonts/consola.ttf
+        - asset: assets/fonts/consolai.ttf
+          style: italic
+        - asset: assets/fonts/consolab.ttf
+          weight: 700
+    - family: DejaVu
+      fonts:
+        - asset: assets/fonts/DejaVuSans.ttf
+        - asset: assets/fonts/DejaVuSans-Oblique.ttf
+          style: italic
+        - asset: assets/fonts/DejaVuSans-Bold.ttf
+          weight: 700

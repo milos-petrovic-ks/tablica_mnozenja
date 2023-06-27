@@ -1,9 +1,7 @@
 
+Tablica Mnozenja source code.
+App can be downloaded from Google Play:
+https://play.google.com/store/apps/details?id=org.mathportal.tablica_mnozenja
 
-Source code for "Tablica Mnozenja".
-
-The app is currently accessible for open testing at 
-https://play.google.com/apps/test/org.mathportal.tablica_mnozenja/10.
-
-Soon, you'll be able to find the app on Google Play.
-
+The purpose of this app is to help kids learn the multiplication table in fun and easy way.
+The application uses Firebase for authentication and for tracking user progress.
